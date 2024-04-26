@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="DbStyle.css">
+</head>
+<body>
+
+<img src="http://localhost\GameShop\Img\Company\LogoV2.png" height="100" width="200" alt="Logo">
+    <div class="topnav">
+  <a href="http://localhost\GameShop\Baza\registracija.html">Register</a>
+  <a class="active" href="http://localhost\GameShop\Baza\prijava.html">Login</a>
+  </div>
+  
+
+<div>
+        <h2>LOGIN</h2>
+        <form action="prijava.php" method="post" name="login">
+            <div>
+                <label for="uname">Username:</label>
+                <input type="text" id="username" placeholder="Enter username" name="username" required>
+            </div>
+			<br>
+            <div>
+                <label for="pwd">Password:</label>
+                <input type="password"id="password" placeholder="Enter password" name="password" required>
+                
+            </div>
+            <br><br>
+            <button class="button" type="submit" name="login">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

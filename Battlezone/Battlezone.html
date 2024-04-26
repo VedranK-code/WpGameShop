@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Battlezone: Jungle</title>
+  <link rel="stylesheet" href="Battlezone.css">
+</head>
+
+<body>
+  
+  <br>
+  <img src="http://localhost\GameShop\Img\Background\cooltext426002199008676.png" height="50" width="150" alt="Battlezone Logo">
+
+  <div class="topnav">
+    <a class="active" href="http://localhost\GameShop\Battlezone\Battlezone.html">Welcome To Your Battlezone</a>
+    <a href="http://localhost\GameShop\shop.html">Shop</a>
+  </div>
+  <br>
+  <br>
+<div class="items-container">
+  <p>"Battlezone Jungle" catapults players into a hyper-realistic Vietnam War of 2034, blending FPS action with strategic depth. The game's stunning visuals and immersive sound design transport players to lush, war-torn jungles teeming with danger.
+    Players assume the role of a specialized soldier equipped with advanced weaponry and tactical gear, navigating dense foliage while engaging in intense firefights against cunning AI enemies. Emphasizing squad-based tactics, players coordinate with AI teammates or friends in multiplayer mode to survive the unforgiving battlefield.
+    The narrative intertwines personal stories within the larger scope of conflict, exploring themes of sacrifice and the human cost of war. Each decision made by players resonates within the game's intricate storytelling, offering a rich and emotionally engaging experience.
+    Progression rewards combat skill and strategic decision-making, unlocking upgrades and enhancements. The game's audio-visual design heightens immersion, capturing the haunting echoes of warfare amid the vivid Vietnamese landscape.
+    "Battlezone Jungle" redefines FPS gaming, offering gripping storytelling, strategic depth, and visceral action set in a reimagined Vietnam War. With its breathtaking visuals and compelling narrative, it sets a new standard for immersive gaming experiences.</p>
+  </div>
+  <br>
+  <br>
+    <div class="container">
+      <label for="consoles"></label>
+      <select id="consoles" name="consoles" onchange="changeImage(this.value)">
+        <option value="PS5">PS5</option>
+        <option value="Xbox X">Xbox X</option>
+        <option value="PC">PC</option>
+      </select>
+      <br><br>
+      <img id="consoleImage" src="http://localhost\GameShop\Battlezone\Box\PS5.png" height="250" width="250" alt="Battlezone Box">
+      <br><br>
+      <button class="button"><a href="http://localhost\GameShop\shop.html" style="text-decoration: none; color: inherit;">Buy Now</a></button>
+
+    </div>
+    <br><br>
+    <div class="items-container">
+      <p>In the tumultuous landscape of Battlezone Jungle, the year 2042 was etched in the annals of warfare with an intensity that eclipsed all preceding conflicts. 
+        It was a saga woven with the fabric of relentless combat and strategic prowess, 
+        where the lines between victory and defeat blurred in the dense foliage.
+        The battleground was a tapestry of lush greenery interrupted by the chaos of warfare—a symphony of gunfire, 
+        explosions, and the rumble of mechanized war engines. 
+        Amidst the sprawling expanse of the jungle, factions vied for dominance, 
+        each armed with advanced weaponry and cutting-edge technology.</p>
+      </div>
+
+    <br><br>
+    <div id="image-container">
+      <img class="carousel-img active" src="http://localhost\GameShop\Battlezone\Gameplay\1.png" alt="gameplay-image-1">
+      <img class="carousel-img" src="http://localhost\GameShop\Battlezone\Gameplay\2.png" alt="gameplay-image-2">
+      <img class="carousel-img" src="http://localhost\GameShop\Battlezone\Gameplay\3.png" alt="gameplay-image-3">
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+      <button class="prevNext" onclick="previousImage()">Previous</button>
+      <button class="prevNext" onclick="nextImage()">Next</button>
+    </div>
+      <br><br>
+      <div class="items-container">
+        <p>
+          Soldiers, clad in state-of-the-art exosuits, navigated through the dense undergrowth, 
+          their every step fraught with anticipation and danger. Drones zipped through the canopy, 
+          scanning for enemy positions, 
+          while vehicles tore through the terrain, leaving destruction in their wake.
+          The environment itself became a formidable adversary, 
+          concealing threats and opportunities within its tangled embrace. 
+          Ambushes lurked behind every thicket, 
+          and the shifting landscape forced constant adaptation in tactics and strategy.
+          Heroes emerged amidst the chaos, 
+          their bravery and skill etching their names into the folklore of Battlezone Jungle. 
+          Each engagement was a symphony of bravery and sacrifice, 
+          as soldiers fought for the fate of nations amidst the unforgiving terrain.
+          In the heart of this battlefield, 
+          the story of Battlezone Jungle in 2042 echoed through the ages—a testament to the 
+          unyielding spirit of those who fought and the price they paid in a world consumed by 
+          conflict.
+        </p>
+        </div>
+    
+        <script src="BattlezoneScripts.js"></script>
+</body>
+</html>
